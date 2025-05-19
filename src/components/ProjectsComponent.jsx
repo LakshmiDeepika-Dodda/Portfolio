@@ -131,9 +131,10 @@ const ProjectsComponent = () => {
           <div className="lg:text-start pt-4">
             <div className="font-semibold text-white
               group-hover:text-mint">Porfolio application</div>
-            <p className="mt-2 text-gray-400">A modern contact management app built with ReactJS, Redux Toolkit, and React Router.
-              It uses Axios to interact with a JSON server and Toastify for clean user notifications.
-              Easily add, view, edit, and delete contacts in a smooth, responsive interface.</p>
+            <p className="mt-2 text-gray-400">A personal portfolio website built with ReactJS 
+              and styled using TailwindCSS. It interactive hover effects and responsive grid layouts.
+              Designed to showcase about the work done in past and user experience in a modern, 
+              user-friendly format.</p>
             <div className='flex justify-start gap-4 pb-2'>
               {/*Github link*/}
               <Button
