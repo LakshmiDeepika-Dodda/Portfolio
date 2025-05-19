@@ -119,6 +119,36 @@ const ProjectsComponent = () => {
           </div>
         </div>
       </div>
+
+       {/*Portfolio application*/}
+      <div className="max-w-md mx-auto my-4 rounded-xl
+       shadow-md overflow-hidden md:max-w-2xl hover:bg-[#10203b] group">
+        <div className="md:flex">
+          <div className="md:flex-shrink-0 p-5">
+            <img className="h-24 w-32 object-fill md:h-28 md:w-36 rounded-xl border-2 border-blue-800"
+              src="port.png" alt="Man looking at item at a store"></img>
+          </div>
+          <div className="lg:text-start pt-4">
+            <div className="font-semibold text-white
+              group-hover:text-mint">Porfolio application</div>
+            <p className="mt-2 text-gray-400">A modern contact management app built with ReactJS, Redux Toolkit, and React Router.
+              It uses Axios to interact with a JSON server and Toastify for clean user notifications.
+              Easily add, view, edit, and delete contacts in a smooth, responsive interface.</p>
+            <div className='flex justify-start gap-4 pb-2'>
+              {/*Github link*/}
+              <Button
+                tag="a"
+                href="https://github.com/deepikavirajith/Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex px-3 py-1 bg-[#162b4f] rounded-full w-fit text-mint mt-6"
+              >
+                Github
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
