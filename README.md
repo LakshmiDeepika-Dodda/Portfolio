@@ -1,74 +1,54 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+Developer Portfolio
+A modern, responsive portfolio website built with React and Tailwind CSS, showcasing my skills, projects, and experience as a web developer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Sleek responsive design using Tailwind CSS
 
-## Available Scripts
+Project section highlighting my best work
 
-In the project directory, you can run:
+About Me, Skills, and Contact sections
 
-### `npm start`
+Clean navigation, fast loading, and accessible layout
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Getting Started
+Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Node.js (v14+)
 
-### `npm test`
+npm or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation
 
-### `npm run build`
+bash
+git clone https://github.com/LakshmiDeepika-Dodda/Portfolio.git
+cd Portfolio
+npm install
+Run locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+npm start
+The site opens at http://localhost:3000.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Project Structure
+text
+src/
+├── components/    # React components (Navbar, ProjectCard, etc.)
+├── assets/        # Images, icons, etc.
+├── App.js
+├── index.js
+└── ...
+Technologies Used
+React – Frontend JS library
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tailwind CSS – Utility-first CSS framework for rapid UI development
 
-### `npm run eject`
+JavaScript (ES6+)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Create React App – Scaffolding and dev scripts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Customization
+Update content and data in the src folder for your projects and skills.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Change images and style with Tailwind’s classes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Portfolio
->>>>>>> b8759ce06550063f827c19875038f16705ea387b
+If you’d like help reviewing the actual code, suggesting section improvements, or troubleshooting Tailwind integration, just mention it. Thank you for expecting high standards—I’m here to deliver the quality you deserve.
